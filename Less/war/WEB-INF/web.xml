@@ -7,6 +7,16 @@
 		<servlet-name>Less</servlet-name>
 		<url-pattern>/less</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoogleLoginServlet</servlet-name>
+		<servlet-class>com.less.backend.security.GoogleLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoogleLoginServlet</servlet-name>
+		<url-pattern>/glogin</url-pattern>
+	</servlet-mapping>
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
