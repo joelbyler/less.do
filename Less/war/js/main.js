@@ -18,7 +18,10 @@ function displayMainComponents() {
 }
 
 
+function displaySuggestedCategories() {
+	$("#main_suggested_categories").show();
+}
 
-function displayElementByTag() {
+function displaySuggestedElements() {
 	$("#main_suggested_elements").show();
 }

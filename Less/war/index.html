@@ -73,33 +73,152 @@
 			    <div class="control-group">
 			      <p class="control-label"  style="margin-right: 1%;">I am </p>
 			       <div id="index_help_type">
-			       <select class="selectpicker">
+			       <select class="selectpicker" onchange="displaySuggestedCategories();">
 				      <option>Small Business Owner</option>
 				      <option>New Dad</option>
 				  </select>    
 				  </div>  
 			    </div>
 				
-			 <div id="main_suggested_elements" class="row" style="display:hidden;">
+			 <div id="main_suggested_categories" class="row" style="display:none;">
 			  <div class="span6">
 			    <div class="page-header">
 			      <p class="pull-right"><a href="#">see all</a></p>
 			      <h4>Try this <small>(6)</small></h4>
 			    </div>
 				<div>
-			    	<a href="#"><img src="http://placehold.it/160x160" class="img-circle"></a>
-			        <a href="#"><img src="http://placehold.it/160x160" class="img-circle"></a>
-			        <a href="#"><img src="http://placehold.it/160x160" class="img-circle"></a>
-			        <a href="#"><img src="http://placehold.it/160x160" class="img-circle"></a>
-			        <a href="#"><img src="http://placehold.it/160x160" class="img-circle"></a>
-			        <a href="#"><img src="http://placehold.it/160x160" class="img-circle"></a>
-			        </div>
+			       <a href="#" onclick="displaySuggestedElements();"><img src="http://placehold.it/160x160" class="img-circle"></a>
+				   <a href="#" onclick="displaySuggestedElements();"><img src="http://placehold.it/160x160" class="img-circle"></a>
+				   <a href="#" onclick="displaySuggestedElements();"><img src="http://placehold.it/160x160" class="img-circle"></a>
+				   <a href="#" onclick="displaySuggestedElements();"><img src="http://placehold.it/160x160" class="img-circle"></a>
+				   <a href="#" onclick="displaySuggestedElements();"><img src="http://placehold.it/160x160" class="img-circle"></a>
+				   <a href="#" onclick="displaySuggestedElements();"><img src="http://placehold.it/160x160" class="img-circle"></a>
+			    </div>
 			  </div>
 			</div> 
 						
         	</fieldset>
         	
         	</form>
+        	<br/>
+        	<div id="main_suggested_elements" style="display:none;">
+        	<div class="row">
+				  <div class="span8">
+				    <div class="row">
+				      <div class="span8">
+				        <h4><strong><a href="#">Dummy Product</a></strong></h4>
+				      </div>
+				    </div>
+				    <div class="row">
+				      <div class="span2">
+				        <a href="#" class="thumbnail">
+				            <img src="http://placehold.it/260x180" alt="">
+				        </a>
+				      </div>
+				      <div class="span6">      
+				        <p>
+				          Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+				        </p>
+				        <p><a class="btn" href="#">Read more</a></p>
+				      </div>
+				    </div>
+				    <div class="row">
+				      <div class="span8">
+				        <p></p>
+				        <p>
+				          <i class="icon-user"></i> by <a href="#">John</a> 
+				          | <i class="icon-calendar"></i> Sept 16th, 2012
+				          | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+				          | <i class="icon-share"></i> <a href="#">39 Shares</a>
+				          | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a> 
+				          <a href="#"><span class="label label-info">Bootstrap</span></a> 
+				          <a href="#"><span class="label label-info">UI</span></a> 
+				          <a href="#"><span class="label label-info">growth</span></a>
+				        </p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<hr>
+				 
+				<div class="row">
+				  <div class="span8">
+				    <div class="row">
+				      <div class="span8">
+				        <h4><strong><a href="#">Dummy Product</a></strong></h4>
+				      </div>
+				    </div>
+				    <div class="row">
+				      <div class="span2">
+				        <a href="#" class="thumbnail">
+				            <img src="http://placehold.it/260x180" alt="">
+				        </a>
+				      </div>
+				      <div class="span6">      
+				        <p>
+				          Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+				        </p>
+				      </div>
+				    </div>
+				    <div class="row">
+				      <div class="span8">
+				        <p></p>
+				        <p>
+				          <i class="icon-user"></i> by <a href="#">Mark</a> 
+				          | <i class="icon-calendar"></i> Sept 16th, 2012
+				          | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+				          | <i class="icon-share"></i> <a href="#">39 Shares</a>
+				          | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a> 
+				          <a href="#"><span class="label label-info">Bootstrap</span></a> 
+				          <a href="#"><span class="label label-info">UI</span></a> 
+				          <a href="#"><span class="label label-info">growth</span></a>
+				        </p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<hr>
+				 
+				<div class="row">
+				  <div class="span8">
+				    <div class="row">
+				      <div class="span8">
+				        <h4><strong><a href="#">Dummy Product</a></strong></h4>
+				      </div>
+				    </div>
+				    <div class="row">
+				      <div class="span2">
+				        <a href="#" class="thumbnail">
+				            <img src="http://placehold.it/260x180" alt="">
+				        </a>
+				      </div>
+				      <div class="span6">      
+				        <p>
+				          Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+				        </p>
+				        <p><a href="#">Read more</a></p>
+				      </div>
+				    </div>
+				    <div class="row">
+				      <div class="span8">
+				        <p></p>
+				        <p>
+				          <i class="icon-user"></i> by <a href="#">Mark</a> 
+				          | <i class="icon-calendar"></i> Sept 16th, 2012
+				          | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+				          | <i class="icon-share"></i> <a href="#">39 Shares</a>
+				          | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a> 
+				          <a href="#"><span class="label label-info">Bootstrap</span></a> 
+				          <a href="#"><span class="label label-info">UI</span></a> 
+				          <a href="#"><span class="label label-info">growth</span></a>
+				        </p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<hr>
+			</div>	        	
+				        	
         	
         	</div>
             <hr>
