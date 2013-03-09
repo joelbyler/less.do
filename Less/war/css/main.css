@@ -59,8 +59,32 @@
 .bootstrap-select.btn-group .dropdown-menu li:not(.disabled) > a:hover small {color: #64b1d8; color:rgba(255,255,255,0.4);}
 .bootstrap-select.btn-group .dropdown-menu li > dt small {font-weight:normal;}
 
+.img-circle {
+	margin: 12px;
+}
+.brand {
+	font-family: 'Sacramento', cursive;
+	font-size: 1.5em;
+}
+.less_word {
+	font-size: 1.5em;
+	margin-left: 50px;
+	padding-right: 8px;				
+}
+         .less_than {
+	border: solid;
+	padding-left: 6px;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	padding-right: 4px;
+	display: inline-block;
+	border-radius: 5px;
+}
 
-
+.navbar .nav {
+	margin-top: 9px;
+}
 
 
 
