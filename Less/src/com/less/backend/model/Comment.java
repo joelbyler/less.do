@@ -12,6 +12,7 @@ public class Comment implements Serializable {
 	private String username;
 	private String date;
 	private String comment;
+	private String title;
 
 	public String getUsername() {
 		return username;
@@ -35,6 +36,14 @@ public class Comment implements Serializable {
 
 	public void setComment(String comment) {
 		this.comment = comment;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 }
