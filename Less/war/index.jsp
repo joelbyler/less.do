@@ -21,7 +21,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway|Pacifico|Sacramento' rel='stylesheet' type='text/css'>
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>   
     </head>
     <body> 
@@ -34,13 +34,16 @@
        	
 			<div style="text-align: center;">
 <!-- 				<img width="500" height="200" src="https://s3.amazonaws.com/assets.kickofflabs.com/logos/site/logo/8287/lheader1.png"></img> -->
-				<h1 style="color:white;">less is more!</h1>
+				<div class="index_text_less">less</div><div class="index_text_more"> is more!</div> 
 				<iframe width="560" height="315" src="http://www.youtube.com/embed/Qsd885pT-Wc" frameborder="0" allowfullscreen></iframe>
      			<br/><br/>
-     			<button class="btn btn-large btn-info" type="button" onclick="location.href='/main.jsp'">Discover it!</button>
+     			<button class="btn btn-large btn-success" type="button" onclick="location.href='/main.jsp'">Discover it!</button>
      	 	</div>
         </div> <!-- /container -->
-
+ 		<footer>
+         <hr>
+             <p>&nbsp; &nbsp; &copy; Do Less 2013</p>
+         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
