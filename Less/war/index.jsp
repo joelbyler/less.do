@@ -24,26 +24,21 @@
 		<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>   
     </head>
-    <body class="index_background"> 
+    <body> 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
    	    <jsp:include page="/header.jsp" />
-		 <div class="container">
+		 <div class="container hero-unit well index_body_background">
       	
        	
-			<div class="row" style="text-align: center;">
+			<div style="text-align: center;">
 <!-- 				<img width="500" height="200" src="https://s3.amazonaws.com/assets.kickofflabs.com/logos/site/logo/8287/lheader1.png"></img> -->
 				<h1 style="color:white;">less is more!</h1>
 				<iframe width="560" height="315" src="http://www.youtube.com/embed/Qsd885pT-Wc" frameborder="0" allowfullscreen></iframe>
-     			<br/>
+     			<br/><br/>
      			<button class="btn btn-large btn-info" type="button" onclick="location.href='/main.jsp'">Discover it!</button>
      	 	</div>
-      
-<!--            <hr> -->
-<!--             <footer> -->
-<!--                 <p>&copy; Do Less 2013</p> -->
-<!--             </footer> -->
         </div> <!-- /container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

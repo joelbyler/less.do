@@ -4,8 +4,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-   <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
+   <div class="navbar navbar-inverse navbar-big">
+            <div class="">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
@@ -18,7 +18,7 @@
                    	</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="index.jsp">Home</a></li>
+                            <li><a href="index.jsp">Home</a></li>
                             <li><a href="about.jsp">About</a></li>
                             <li><a href="contact.jsp">Contact</a></li>
                         </ul>
