@@ -31,10 +31,14 @@
 
         <div class="container">
       	
-      	You know, whatever
+	      	<span class="span2"><img src="/img/team/kyle.jpg" class="img-circle"><center><label>Kyle Blair</label></center></span>
+	      	<span class="span2"><img src="/img/team/john.jpg" class="img-circle"><center><label>John Barrett</label></center></span>
+	      	<span class="span2"><img src="/img/team/alberto.jpg" class="img-circle"><center><label>Alberto Calleja R&iacute;os</label></center></span>
+	      	<span class="span2"><img src="/img/team/joel.jpg" class="img-circle"><center><label>Joel Byler</label></center></span>
       	
-           <hr>
-            <footer>
+      		<br style="clear:both"/>
+			<hr>
+			<footer>
                 <p>&copy; Less.do 2013</p>
             </footer>
         </div> <!-- /container -->
