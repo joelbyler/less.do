@@ -66,7 +66,7 @@
       
            <hr>
             <footer>
-                <p>&copy; Do Less 2013</p>
+                <p>&copy; Less.do 2013</p>
             </footer>
         </div> <!-- /container -->
 
