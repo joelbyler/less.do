@@ -26,7 +26,7 @@ var TEMPLATE_PRODUCT = "<div class=\"row\">"
 		+ "      <div class=\"span8\">"
 		+ "        <p></p>"
 		+ "        <p>"
-		+ "          <i class=\"icon-comment\"></i> <a href=\"/detail.jsp?id=${id}\">${comments} Comments</a> | "
+		+ "          <i class=\"icon-comment\"></i> <a href=\"/detail.jsp?id=${id}&iam=${iam}&ido=${ido}&ineed=${ineed}\">${comments} Comments</a> | "
 		+ "          <i class=\"icon-tags\"></i> Tags : "
 		+ "			{{each tags}} "
 		+ "		 		<a href=\"/detail.jsp?id=${id}\"><span class=\"label label-info\">${$value}</span></a>"
@@ -37,38 +37,48 @@ $.template("mainCategoryCategory", TEMPLATE_MAIN_CATEGORY);
 $.template("subCategoryCategory", TEMPLATE_SUB_CATEGORY);
 $.template("productCategory", TEMPLATE_PRODUCT);
 
-function loadFirstQuestion() {
+var iam = '';
+var ido = '';
+var ineed = '';
+
+function loadFirstQuestion(iam, callback) {
 	$.getJSON(url, function(data) {
 		var select = $("#selectTopLevelCategory");
 		select.find('option').remove().end();
 		// select.append($('<option>').text("Select One"));
 		$.each(data.entry_categories, function(key, value) {
 			if (value.tags.indexOf(CATEGORY_NAME_MAIN) >= 0) {
-				select.append($('<option>').text(value.label).attr('value',
-						value.name));
+				if(value.name==iam){
+					select.append($('<option>').text(value.label).attr('value', value.name).attr('selected', 'true'));
+				} else {
+					select.append($('<option>').text(value.label).attr('value', value.name));
+				}
 			}
+			if(callback)callback();
 		});
 	});
 }
 
-function displayMainCategories(forTag) {
+function displayMainCategories(forTag, callback) {
+	iam=forTag;
 	var url = base_url + "/data/sample.json";
 	$.getJSON(url, function(data) {
 		$("#main_category_list").html("");
 		var hitCounter = 0;
 		$.each(data.main_categories, function(key, value) {
 			if (value.tags.indexOf(forTag) >= 0) {
-				$.tmpl("mainCategoryCategory", value).appendTo(
-						"#main_category_list");
+				$.tmpl("mainCategoryCategory", value).appendTo("#main_category_list");
 				hitCounter++;
 			}
 		});
 		$("#main_category_item_count").html("(" + hitCounter + ")");
 		$("#main_category_section").show();
+		if(callback)callback();
 	});
 
 }
-function displaySubCategories(forTag) {
+function displaySubCategories(forTag, callback) {
+	ido=forTag;
 	var url = base_url + "/data/sample.json";
 	$.getJSON(url, function(data) {
 		$("#sub_category_list").html("");
@@ -85,11 +95,13 @@ function displaySubCategories(forTag) {
 
 		var new_position = $("#sub_category_label").offset();
 		window.scrollTo(new_position.left, new_position.top - 20);
+		if(callback)callback();
 	});
 
 }
 
-function displayProducts(forTag) {
+function displayProducts(forTag, callback) {
+	ineed=forTag;
 	var url = base_url + "/data/sample.json";
 	$.getJSON(url, function(data) {
 		$("#main_suggested_elements").html("");
@@ -103,5 +115,21 @@ function displayProducts(forTag) {
 		
 		var new_position = $("#main_suggested_elements").offset();
 		window.scrollTo(new_position.left, new_position.top - 10);
+		if(callback)callback();
 	});
 }
+
+function rebuildPage(iam, like, help_with) {
+	loadFirstQuestion(iam, function() {
+		displayMainCategories(iam, function() {
+			displaySubCategories(like, function() {
+				displayProducts(help_with);
+			});
+		});
+	});
+}
+
+function getUrlParam(name) {
+    return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
+}
+
