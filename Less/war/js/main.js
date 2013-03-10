@@ -73,8 +73,14 @@ function displayMainCategories(forTag, callback) {
 				hitCounter++;
 			}
 		});
-		$("#main_category_item_count").html("(" + hitCounter + ")");
-		$("#main_category_section").show();
+		if (hitCounter>0) {
+			$("#main_category_item_count").html("(" + hitCounter + ")");
+			$("#main_category_section").show();
+			$("#main_category_section_alt").hide();
+		} else {
+			$("#main_category_section_alt").show();
+			$("#main_category_section").hide();
+		}
 		if(callback)callback();
 	});
 
@@ -111,8 +117,7 @@ function displayProducts(forTag, callback) {
 		$("#main_suggested_elements").html("");
 		$.each(data.products, function(key, value) {
 			if (value.tags.indexOf(forTag) >= 0) {
-				$.tmpl("productCategory", value).appendTo(
-						"#main_suggested_elements");
+				$.tmpl("productCategory", value).appendTo("#main_suggested_elements");
 			}
 		});
 		$("#main_suggested_elements").show();

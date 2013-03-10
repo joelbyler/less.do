@@ -53,7 +53,14 @@
 				<div id="main_category_list" ></div>
 			  </div>
 			</div> 
-			 <div id="sub_category_section" class="row" style="display:none;">
+			<div id="main_category_section_alt" class="row" style="display:none;">
+			  <div class="span12">
+			    <div class="page-header">
+			      <h4><span id="main_category_label_alt">We're busy finding ways to help you do less, check back soon for more.</span></h4>
+			    </div>
+			  </div>
+			</div> 
+			<div id="sub_category_section" class="row" style="display:none;">
 			  <div class="span12">
 			    <div class="page-header">
 			      <h4><span id="sub_category_label">What can we help you with?</span><span style="float: right;"><small><span id="sub_category_item_count"></span> options</small></span></h4>

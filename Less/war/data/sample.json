@@ -15,6 +15,22 @@
             "tags": [
                 "top_level"
             ]
+        },
+        {
+            "label": "Student",
+            "name": "student",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "top_level"
+            ]
+        },
+        {
+            "label": "Professional",
+            "name": "pro",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "top_level"
+            ]
         }],
     "main_categories": [
         {
