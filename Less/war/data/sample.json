@@ -26,7 +26,7 @@
             ]
         },
         {
-            "label": "Medical Services (Dental, Physician, Mental Health)",
+            "label": "Medical Services",
             "name": "medical",
             "img_url": "/img/categories/medserv.jpg",
             "tags": [
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "label": "Keeping Down Costs of Heating and Cooling (Energy Savings)",
+            "label": "Reducing My Energy Bill",
             "name": "saveenergy",
             "img_url": "/img/categories/energysave.jpg",
             "tags": [
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "label": "Inventory Management",
+            "label": "Managing My Inventory",
             "name": "invmgmt",
             "img_url": "/img/categories/inventory.jpg",
             "tags": [
