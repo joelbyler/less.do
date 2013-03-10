@@ -29,9 +29,7 @@
    	    <jsp:include page="/header.jsp" />
 
 
-
         <div class="container">
-        	<div id="index_form">
         	
         	<form class="form-horizontal" action='landing.html' method="GET">
 			  <fieldset>
@@ -42,16 +40,24 @@
 			    <div class="control-group">
 			      <p class="control-label"  style="margin-right: 1%;">I am </p>
 			       <div id="index_help_type">
-			       <select id="selectTopLevelCategory" class="selectpicker" onchange="displaySubCategories(this.value);" ></select>
+			       <select id="selectTopLevelCategory" class="selectpicker" onchange="displayMainCategories(this.value);" ></select>
 				  </div>  
 			    </div>
 				
-			 <div id="main_suggested_categories" class="row" style="display:none;">
-			  <div class="span6">
+			 <div id="main_category_section" class="row" style="display:none;">
+			  <div class="span12">
 			    <div class="page-header">
-			      <h4><span id="main_category_name">What best describes your situation? </span><small><span id="suggested_category_item_count"></span> options</small></h4>
+			      <h4><span id="main_category_label">What type of business are you most like?</span><span style="float: right;"><small><span id="main_category_item_count"></span> options</small></span></h4>
 			    </div>
-				<div id="main_suggested_categories_list" ></div>
+				<div id="main_category_list" ></div>
+			  </div>
+			</div> 
+			 <div id="sub_category_section" class="row" style="display:none;">
+			  <div class="span12">
+			    <div class="page-header">
+			      <h4><span id="sub_category_label">What can we help you with?</span><span style="float: right;"><small><span id="sub_category_item_count"></span> options</small></span></h4>
+			    </div>
+				<div id="sub_category_list" ></div>
 			  </div>
 			</div> 
 						
@@ -65,7 +71,7 @@
             <footer>
                 <p>&copy; Do Less 2013</p>
             </footer>
-		</div>
+
         </div> <!-- /container -->
 
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
@@ -78,7 +84,7 @@
 	
 		<script type="text/javascript">
 			$(document).ready(function() {
-				loadMainCategory();
+				loadFirstQuestion();
 			});
 		</script>
         <script>

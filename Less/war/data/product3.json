@@ -1,12 +1,12 @@
 {
-  			"label": "Cook / Chef",
+  			"label": "TaskRabbits",
             "id" : "3",
-            "name": "cook",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "name": "TaskRabbits",
+            "description": "College students, recent retirees, stay-at-home moms, young professionals TaskRabbits are quite literally the people in your neighborhood. They dedicate their time and talents to getting your To-Do list done.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "https://d1sogh6lbaxf9i.cloudfront.net/core/assets/new_homepage/ts_logo-51f3b15996192c30f1b0ec863b93b4a4.png",
             "tags": [
-                "restaurant", "cook", "chef"
+                "gtd"
              		] ,
 		    "comments": [
 		        {

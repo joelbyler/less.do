@@ -1,12 +1,12 @@
 {
-  			"label": "Buffer",
-            "id" : "3",
-            "name": "Buffer",
-            "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
+  			"label": "OneHourCleveland",
+            "id" : "8",
+            "name": "1hrcleveland",
+            "description": "Welcome to One Hour Heating & Air Conditioning, your source for prompt, courteous, reliable heating and air service. Offering heating and air conditioning maintenance, installation, repairs, and everything in between, our goal is to address your HVAC needs in a timely, efficient, and cost-effective fashion. If you are located in Cleveland, heating and air systems need to be kept in good shape in your home if you want to stay comfortable. If you want to remain cool during summer and warm during winter while staying within your budget, you should give One Hour Heating & Air Conditioning a chance to perform repairs.",
             "comments": 3,
-            "img_url": "http://bufferapp.com/images/app/buffer-logo.png",
+            "img_url": "http://www.onehourcleveland.com/images/logo.gif",
             "tags": [
-                 "social"
+                "saveenergy"
              		] ,
 		    "comments": [
 		        {

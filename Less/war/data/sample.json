@@ -103,7 +103,7 @@
             "label": "Buffer",
             "id" : "0",
             "name": "bfr",
-            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
             "comments": 4,
             "img_url": "/img/products/bfr.jpg",
             "tags": [
@@ -114,7 +114,7 @@
             "label": "IFTTT",
             "id" : "1",
             "name": "ifttt",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "IFTTT is a service that lets you create powerful connections with one simple statement: if this then that",
             "comments": 6,
             "img_url": "/img/products/ifttt.jpeg",
             "tags": [
@@ -125,7 +125,7 @@
             "label": "TweetDeck",
             "id" : "2",
             "name": "tweetdeck",
-            "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+            "description": "TweetDeck is an app that brings more flexibility and insight to power users.",
             "comments": 1,
             "img_url": "/img/products/tweetdeck.jpeg",
             "tags": [
@@ -136,7 +136,7 @@
             "label": "TaskRabbit.com",
             "id" : "3",
             "name": "taskrabbit",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "College students, recent retirees, stay-at-home moms, young professionals TaskRabbits are quite literally the people in your neighborhood. They dedicate their time and talents to getting your To-Do list done.",
             "comments": 3,
             "img_url": "/img/products/taskrabbit.jpg",
             "tags": [
@@ -145,9 +145,9 @@
         },
         {
             "label": "Delivermefood.com",
-            "id" : "3",
-            "name": "delivermefood",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "id" : "4",
+            "name": "Delivermefood",
+            "description": "We are an online ordering service that serves the Greater Cleveland area. We are a locally owned and operated company that is committed to providing you with great service. Sit back, relax and enjoy! Simply browse through our menus and place your order with the restaurant of your choice. We hope you enjoy your experience with us! If you are unfamiliar with our service, we ask that you read How it Works before placing your order.",
             "comments": 3,
             "img_url": "/img/products/delivermefood.jpg",
             "tags": [
@@ -156,9 +156,9 @@
         },
         {
             "label": "Stubhub.com",
-            "id" : "3",
+            "id" : "5",
             "name": "stubhub",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "It's simple: we back every order, so you can buy and sell tickets with 100% confidence.",
             "comments": 3,
             "img_url": "/img/products/stubhub.jpeg",
             "tags": [
@@ -167,9 +167,9 @@
         },
         {
             "label": "US Green Building Council",
-            "id" : "3",
+            "id" : "6",
             "name": "usgreen",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "USGBC works toward its mission of market transformation through its LEED green building program, robust educational offerings, a nationwide network of chapters and affiliates, the annual Greenbuild International Conference & Expo, and advocacy in support of public policy that encourages and enables green buildings and communities.",
             "comments": 3,
             "img_url": "/img/products/usgbc.jpeg",
             "tags": [
@@ -178,9 +178,9 @@
         },
         {
             "label": "Hann Heating & HVAC Services for Cleveland Residents",
-            "id" : "3",
+            "id" : "7",
             "name": "hannhvac",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "The Hann family has been a leader in the residential Cleveland heating and Cleveland HVAC industry since 1907. Verne & Ellsworth Hann is owned by fourth-generation brothers Chris and Bill Hann and celebrates over a 100-year family commitment to the HVAC and plumbing industries. At the heart of the company's mission is its commitment to providing quality service and products in a professional and honest manner.  Verne & Ellsworth Hann, Inc. has been located in Cleveland Heights, Ohio since 1957. It is currently one of the oldest family run businesses in the city.  Learn more about Cleveland HVAC and Cleveland plumbing. ",
             "comments": 3,
             "img_url": "/img/products/hannhvac.jpeg",
             "tags": [
@@ -189,9 +189,9 @@
         },
         {
             "label": "OneHourCleveland",
-            "id" : "3",
+            "id" : "8",
             "name": "1hrcleveland",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "Welcome to One Hour Heating & Air Conditioning, your source for prompt, courteous, reliable heating and air service. Offering heating and air conditioning maintenance, installation, repairs, and everything in between, our goal is to address your HVAC needs in a timely, efficient, and cost-effective fashion. If you are located in Cleveland, heating and air systems need to be kept in good shape in your home if you want to stay comfortable. If you want to remain cool during summer and warm during winter while staying within your budget, you should give One Hour Heating & Air Conditioning a chance to perform repairs.",
             "comments": 3,
             "img_url": "/img/products/1hrcleveland.gif",
             "tags": [
@@ -200,9 +200,9 @@
         },
         {
             "label": "DropBox",
-            "id" : "3",
+            "id" : "9",
             "name": "dropbox",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website. Dropbox also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! You can relax knowing that Dropbox always has you covered, and none of your stuff will ever be lost.",
             "comments": 3,
             "img_url": "/img/products/dropbox.jpeg",
             "tags": [
@@ -211,9 +211,9 @@
         },
         {
             "label": "DDS",
-            "id" : "3",
+            "id" : "10",
             "name": "dds",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "DSS works worldwide with governments, corporations and financial institutions to protect their brands and defeat document theft, counterfeiting and fraud. Simply put, DSS is a proven leader in customized brand protection—and we have the years of experience, the patented technology, and the track record to prove it.",
             "comments": 3,
             "img_url": "/img/products/dds.jpeg",
             "tags": [
@@ -222,9 +222,9 @@
         },
         {
             "label": "LockLizard",
-            "id" : "3",
-            "name": "locklizard",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "id" : "11",
+            "name": "lockLizard",
+            "description": "LockLizard protects your Intellectual Property (documents, reports, ebooks, html web content, swf flash files, PowerPoint slides, etc.) from being stolen or compromized.",
             "comments": 3,
             "img_url": "/img/products/locklizard.jpeg",
             "tags": [
@@ -233,9 +233,9 @@
         },
         {
             "label": "NetSuite.com",
-            "id" : "3",
+            "id" : "12",
             "name": "netsuite",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "description": "Used by 16,000+ organizations worldwide, NetSuite delivers accounting/Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Professional Services Automation (PSA) and Ecommerce in a single, integrated business management software solution.",
             "comments": 3,
             "img_url": "/img/products/netsuite.jpeg",
             "tags": [
