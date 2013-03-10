@@ -1,4 +1,4 @@
-//var base_url = "http://www.less-do.appspot.com/";
+//var base_url = "http://do-less.appspot.com/";
 var base_url = "http://localhost:8888/";
 
 var TEMPLATE_PRODUCT_DETAIL = ""
@@ -55,12 +55,16 @@ function postComment() {
 		"comment" : "",
 		"username" : "",
 		"date" : "2012-08-02 20:47:04",
-		"title" : "Cool"
+		"title" : ""
 	};
-	var username = $("#detail_item_input_comment_username").val();
+	var username = $("#hidden_username").val(); 
+	var title = $("#detail_item_input_comment_title").val();
 	var comment = $("#detail_item_input_comment_comment").val();
+	var date = "Sysdate";
 	new_comment["comment"] = comment;
 	new_comment["username"] = username;
+	new_comment["title"] = title;
+	//new_comment["date"] = title;
 
 	var numberOfElements = $("#detail_item_comments_number").html();
 	numberOfElements++;

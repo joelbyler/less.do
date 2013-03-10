@@ -1,5 +1,7 @@
 package com.less.backend.service.impl;
 
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 import com.less.backend.dao.DAOFactory;
 import com.less.backend.dao.impl.DAOFactoryImpl;
 import com.less.backend.model.LessUser;
@@ -24,6 +26,18 @@ public class LessUserSvcImpl implements LessUserSvc {
 	@Override
 	public String userExistGoogle(String googleToken) {
 		return daoFactory.createLessUserDAO().userExistGoogle(googleToken);
+	}
+
+	public String userIsLoggedIn() {
+		String res = "";
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user != null) {
+			String userId = userExistGoogle(user.getUserId());
+			if (!"".equals(userId)) {
+				res = user.getNickname();
+			}
+		}
+		return res;
 	}
 
 }

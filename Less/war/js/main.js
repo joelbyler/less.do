@@ -1,17 +1,18 @@
+//var base_url = "http://do-less.appspot.com/";
 var base_url = "http://localhost:8888/";
 var CATEGORY_NAME_MAIN = "top_level";
-var url = base_url + "/data/sample.json";
+var url = base_url + "data/sample.json";
 var TEMPLATE_SUB_CATEGORY = "<span style=\"width: 50px;\"></span><a href=\"#\" onclick=\"displayProducts('${name}');\" title=\"${label}\"><img src=\"${img_url}\" class=\"img-circle\"></a>";
 var TEMPLATE_PRODUCT = "<div class=\"row\">"
 		+ "<hr><div class=\"span8\">"
 		+ "    <div class=\"row\">"
 		+ "      <div class=\"span8\">"
-		+ "        <h4><strong><a href=\"/detail.html?id=${id}\">${label}</a></strong></h4>"
+		+ "        <h4><strong><a href=\"/detail.jsp?id=${id}\">${label}</a></strong></h4>"
 		+ "      </div>"
 		+ "    </div>"
 		+ "    <div class=\"row\">"
 		+ "      <div class=\"span2\">"
-		+ "        <a href=\"/detail.html?id=${id}\" class=\"thumbnail\">"
+		+ "        <a href=\"/detail.jsp?id=${id}\" class=\"thumbnail\">"
 		+ "          <img src=\"${img_url}\" alt=\"{label}\">"
 		+ "        </a>"
 		+ "      </div>"
@@ -23,10 +24,10 @@ var TEMPLATE_PRODUCT = "<div class=\"row\">"
 		+ "      <div class=\"span8\">"
 		+ "        <p></p>"
 		+ "        <p>"
-		+ "          <i class=\"icon-comment\"></i> <a href=\"/detail.html?id=${id}\">${comments} Comments</a> | "
+		+ "          <i class=\"icon-comment\"></i> <a href=\"/detail.jsp?id=${id}\">${comments} Comments</a> | "
 		+ "          <i class=\"icon-tags\"></i> Tags : "
 		+ "			{{each tags}} "
-		+ "		 		<a href=\"/detail.html?id=${id}\"><span class=\"label label-info\">${$value}</span></a>"
+		+ "		 		<a href=\"/detail.jsp?id=${id}\"><span class=\"label label-info\">${$value}</span></a>"
 		+ "			{{/each}}  " + "        </p>" + "      </div>" + "    </div>"
 		+ "  </div>" + "</div>";
 

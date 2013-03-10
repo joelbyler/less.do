@@ -87,7 +87,21 @@
 }
 
 
+.index_background {
+	 position: relative;
+    overflow: hidden;
 
+    background-color: #283137;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#14181c), to(#3c4a53));
+    background-image: -webkit-linear-gradient(bottom, #14181c, #3c4a53);
+    background-image: -moz-linear-gradient(bottom, #14181c, #3c4a53);
+    background-image: -o-linear-gradient(bottom, #14181c, #3c4a53);
+    background-image: -ms-linear-gradient(bottom, #14181c, #3c4a53);
+    background-image: linear-gradient(bottom, #14181c, #3c4a53);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#14181c', EndColorStr='#3c4a53');
+
+    box-shadow: inset 0 -5px 20px rgba(255,255,255,.1);
+}
 
 
 

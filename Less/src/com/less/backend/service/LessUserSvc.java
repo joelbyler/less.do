@@ -10,4 +10,5 @@ public interface LessUserSvc {
 
 	String userExistGoogle(String id);
 
+	String userIsLoggedIn();
 }
