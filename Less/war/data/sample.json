@@ -1,5 +1,5 @@
 {
-    "main_categories": [
+    "entry_categories": [
         {
             "label": "Small Business",
             "name": "smbiz",
@@ -16,74 +16,230 @@
                 "top_level"
             ]
         }],
-    "sub_categories": [
+    "main_categories": [
         {
-            "label": "Restaurant",
-            "name": "restaurant",
+            "label": "Food/Beverage",
+            "name": "food",
             "img_url": "http://placehold.it/160x160",
             "tags": [
                 "smbiz"
             ]
         },
         {
-            "label": "Consultancy",
-            "name": "consult",
+            "label": "Medical Services (Dental, Physician, Mental Health)",
+            "name": "medical",
             "img_url": "http://placehold.it/160x160",
             "tags": [
                 "smbiz"
             ]
         },
         {
-            "label": "Attorney",
-            "name": "atty",
+            "label": "Legal Services",
+            "name": "legal",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "smbiz"
+            ]
+        },
+        {
+            "label": "Landscaping",
+            "name": "landscape",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "smbiz"
+            ]
+        },
+        {
+            "label": "Heating and Cooling",
+            "name": "heatcool",
             "img_url": "http://placehold.it/160x160",
             "tags": [
                 "smbiz"
             ]
         }],
+    "sub_categories": [
+        {
+            "label": "Managing Social Channels",
+            "name": "social",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "food", "medical", "legal", "landscape", "heatcool"
+            ]
+        },
+        {
+            "label": "Getting Tasks Done",
+            "name": "gtd",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "food", "medical", "legal", "landscape", "heatcool"
+            ]
+        },
+        {
+            "label": "Keeping Down Costs of Heating and Cooling (Energy Savings)",
+            "name": "saveenergy",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "food", "medical", "legal", "landscape", "heatcool"
+            ]
+        },
+        {
+            "label": "Securing My Business",
+            "name": "secure",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "food", "medical", "legal", "landscape", "heatcool"
+            ]
+        },
+        {
+            "label": "Inventory Management",
+            "name": "invmgmt",
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "food", "medical", "legal", "landscape", "heatcool"
+            ]
+        }],
     "products": [
         {
-            "label": "Cleaning",
+            "label": "Buffer",
             "id" : "0",
-            "name": "cleaning",
+            "name": "bfr",
             "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
             "comments": 4,
             "img_url": "http://placehold.it/160x160",
             "tags": [
-                "restaurant", "office", "atty", "consult"
+                "social"
             ]
         },
         {
-            "label": "Waste Removal",
+            "label": "IFTTT",
             "id" : "1",
-            "name": "wasterem",
+            "name": "ifttt",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 6,
             "img_url": "http://placehold.it/160x160",
             "tags": [
-                "office", "restaurant", "home", "atty"
+                "social"
             ]
         },
         {
-            "label": "Handyman",
+            "label": "TweetDeck",
             "id" : "2",
-            "name": "Handyman",
+            "name": "tweetdeck",
             "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
             "comments": 1,
             "img_url": "http://placehold.it/160x160",
             "tags": [
-                "restaurant", "maintenance", "consult"
+                "social"
             ]
         },
         {
-            "label": "Cook / Chef",
+            "label": "TaskRabbit.com",
             "id" : "3",
-            "name": "cook",
+            "name": "taskrabbit",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
             "img_url": "http://placehold.it/160x160",
             "tags": [
-                "restaurant", "cook", "chef"
+                "gtd"
+            ]
+        },
+        {
+            "label": "Delivermefood.com",
+            "id" : "3",
+            "name": "delivermefood",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "gtd"
+            ]
+        },
+        {
+            "label": "Stubhub.com",
+            "id" : "3",
+            "name": "stubhub",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "gtd"
+            ]
+        },
+        {
+            "label": "US Green Building Council",
+            "id" : "3",
+            "name": "usgreen",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "saveenergy"
+            ]
+        },
+        {
+            "label": "Hann Heating & HVAC Services for Cleveland Residents",
+            "id" : "3",
+            "name": "hannhvac",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "saveenergy"
+            ]
+        },
+        {
+            "label": "OneHourCleveland",
+            "id" : "3",
+            "name": "1hrcleveland",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "saveenergy"
+            ]
+        },
+        {
+            "label": "DropBox",
+            "id" : "3",
+            "name": "dropbox",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "secure"
+            ]
+        },
+        {
+            "label": "DDS",
+            "id" : "3",
+            "name": "dds",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "secure"
+            ]
+        },
+        {
+            "label": "LockLizard",
+            "id" : "3",
+            "name": "1hrcleveland",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "secure"
+            ]
+        },
+        {
+            "label": "NetSuite.com",
+            "id" : "3",
+            "name": "netsuite",
+            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "comments": 3,
+            "img_url": "http://placehold.it/160x160",
+            "tags": [
+                "invmgmt"
             ]
         }
     ]
