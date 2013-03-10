@@ -20,7 +20,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway|Pacifico|Sacramento' rel='stylesheet' type='text/css'>
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>   
     </head>
     <body> 

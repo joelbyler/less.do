@@ -13,8 +13,8 @@
                         <span class="icon-bar"></span>
                     </a>
                     <a class="brand" href="index.jsp">
-                    	<span class="less_word">less</span>
                     	<span class="less_than">&#60;&nbsp</span>
+                    	<span class="less_word">less</span>
                    	</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">

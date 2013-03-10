@@ -70,11 +70,13 @@
 }
 .less_word {
 	font-size: 1.5em;
-	margin-left: 50px;
-	padding-right: 8px;				
+	padding-right: 8px;			
+	font-family: 'Pacifico', cursive;	
 }
 
 .less_than {
+	
+	margin-left: 50px;
 	border: solid;
 	padding-left: 6px;
 	margin-top: 2px;
