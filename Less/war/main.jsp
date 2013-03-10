@@ -84,8 +84,16 @@
         <script src="js/main.js"></script>
 	
 		<script type="text/javascript">
+			iam = getUrlParam('iam');
+			ido = getUrlParam('ido');
+			ineed = getUrlParam('ineed');
 			$(document).ready(function() {
-				loadFirstQuestion();
+				if(iam && iam!='' && iam!='null') {
+					rebuildPage(iam, ido, ineed);
+				} else {
+					loadFirstQuestion();
+				}
+				//http://localhost:8888/main.jsp?am=smbiz&do=food&need=social
 			});
 		</script>
         <script>

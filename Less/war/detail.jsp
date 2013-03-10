@@ -34,6 +34,12 @@
       	<div class="row">
       	
 			<div class="row span8">
+				<span style="float:right;">
+                    <a class="brand" href="main.jsp" style="text-decoration: none;">
+                    	<span class="less_than_back">&#60;&nbsp</span>
+                    	<span class="less_word_back">less</span>
+                   	</a>
+				</span>
 				<div id="detail_product_detail" class="row span8 well">
 					
 				</div>
