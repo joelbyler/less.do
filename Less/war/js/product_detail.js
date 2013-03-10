@@ -26,7 +26,7 @@ $.template("productComments", TEMPLATE_PRODUCT_COMMENT);
 $.template("productDetails", TEMPLATE_PRODUCT_DETAIL);
 
 function displayProductComments() {
-	var url = base_url + "/data/product" + getUrlParams("id") + ".json";
+	var url = base_url + "/data/product" + getUrlParam("id") + ".json";
 	$.getJSON(url, function(data) {
 
 		$.tmpl("productDetails", data).appendTo("#detail_product_detail");
@@ -75,15 +75,13 @@ function postComment() {
 
 }
 
-function getUrlParams(paramName) {
-	var res = null;
-	try {
-		var regexS = "[\\?&]" + paramName + "=([^&#]*)";
-		var regex = new RegExp(regexS);
-		var results = regex.exec(window.location.href);
-		res = results[1];
-	} catch (e) {
-		console.log(e);
-	}
-	return res;
+function getUrlParam(name) {
+    return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
+}
+
+function addLessBack() {
+	iam = getUrlParam('iam');
+	ido = getUrlParam('ido');
+	ineed = getUrlParam('ineed');
+	$("#lessback").attr("href", "main.jsp?iam="+iam+"&ido="+ido+"&ineed="+ineed);
 }

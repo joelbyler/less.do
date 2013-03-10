@@ -35,7 +35,7 @@
       	
 			<div class="row span8">
 				<span style="float:right;">
-                    <a class="brand" href="main.jsp" style="text-decoration: none;">
+                    <a id="lessback" class="brand" href="main.jsp" style="text-decoration: none;">
                     	<span class="less_than_back">&#60;&nbsp</span>
                     	<span class="less_word_back">less</span>
                    	</a>
@@ -82,6 +82,7 @@
 	
 		<script type="text/javascript">
 			$(document).ready(function() {
+				addLessBack();
 				displayProductComments();
 			});
 		</script>
