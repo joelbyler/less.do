@@ -28,16 +28,15 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
    	    <jsp:include page="/header.jsp" />
-
-        <div class="container">
-      	
-      	You know, whatever
-      	
-           <hr>
-            <footer>
-                <p>&copy; Less.do 2013</p>
-            </footer>
+		<div class="container well">
+			Contact us via email at <a href="mailto:info@less.do">info@less.do</a>
+			<br/>
+			You can also reach out to us on Twitter, <a href="https://twitter.com/lesshq">@lesshq</a>
         </div> <!-- /container -->
+		<hr>
+		<footer>
+			<p>&copy; Less.do 2013</p>
+		</footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/vendor/jquery.tmpl.min.js"></script>
