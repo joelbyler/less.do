@@ -41,7 +41,7 @@ function loadFirstQuestion() {
 	$.getJSON(url, function(data) {
 		var select = $("#selectTopLevelCategory");
 		select.find('option').remove().end();
-		select.append($('<option>').text("Select One"));
+		// select.append($('<option>').text("Select One"));
 		$.each(data.entry_categories, function(key, value) {
 			if (value.tags.indexOf(CATEGORY_NAME_MAIN) >= 0) {
 				select.append($('<option>').text(value.label).attr('value',
@@ -58,13 +58,15 @@ function displayMainCategories(forTag) {
 		var hitCounter = 0;
 		$.each(data.main_categories, function(key, value) {
 			if (value.tags.indexOf(forTag) >= 0) {
-				$.tmpl("mainCategoryCategory", value).appendTo("#main_category_list");
+				$.tmpl("mainCategoryCategory", value).appendTo(
+						"#main_category_list");
 				hitCounter++;
 			}
 		});
 		$("#main_category_item_count").html("(" + hitCounter + ")");
 		$("#main_category_section").show();
 	});
+
 }
 function displaySubCategories(forTag) {
 	var url = base_url + "/data/sample.json";
@@ -73,13 +75,18 @@ function displaySubCategories(forTag) {
 		var hitCounter = 0;
 		$.each(data.sub_categories, function(key, value) {
 			if (value.tags.indexOf(forTag) >= 0) {
-				$.tmpl("subCategoryCategory", value).appendTo("#sub_category_list");
+				$.tmpl("subCategoryCategory", value).appendTo(
+						"#sub_category_list");
 				hitCounter++;
 			}
 		});
 		$("#sub_category_item_count").html("(" + hitCounter + ")");
 		$("#sub_category_section").show();
+
+		var new_position = $("#sub_category_label").offset();
+		window.scrollTo(new_position.left, new_position.top - 20);
 	});
+
 }
 
 function displayProducts(forTag) {
@@ -93,5 +100,8 @@ function displayProducts(forTag) {
 			}
 		});
 		$("#main_suggested_elements").show();
+		
+		var new_position = $("#main_suggested_elements").offset();
+		window.scrollTo(new_position.left, new_position.top - 10);
 	});
 }

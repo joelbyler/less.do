@@ -20,7 +20,7 @@
         {
             "label": "Food/Beverage",
             "name": "food",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://www.sbdcrvcc.com/wp-content/uploads/cooking-250x168.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -28,7 +28,7 @@
         {
             "label": "Medical Services (Dental, Physician, Mental Health)",
             "name": "medical",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://thefinancialite.com/wp-content/uploads/2011/04/dentist-via-twincitiespot5.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -36,7 +36,7 @@
         {
             "label": "Legal Services",
             "name": "legal",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://www.case.edu/president/counsel/images/law-1.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -44,7 +44,7 @@
         {
             "label": "Landscaping",
             "name": "landscape",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://absolutepaving.co.uk/wp-content/uploads/2012/09/landscape02.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -52,7 +52,7 @@
         {
             "label": "Heating and Cooling",
             "name": "heatcool",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://www.qualitycool.com/images/hvac-energy-savings-card.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -61,7 +61,7 @@
         {
             "label": "Managing Social Channels",
             "name": "social",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://freshdesk.com/images/social-help-desk.png",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -69,7 +69,7 @@
         {
             "label": "Getting Tasks Done",
             "name": "gtd",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://www.lifeofjustin.com/wp-content/uploads/2010/07/getting-things-done-570x380.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -77,7 +77,7 @@
         {
             "label": "Keeping Down Costs of Heating and Cooling (Energy Savings)",
             "name": "saveenergy",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://www.benefits.gov/static/benefits/en/images/january2013_newsletter_img_save.png",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -85,7 +85,7 @@
         {
             "label": "Securing My Business",
             "name": "secure",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://blog.fundinggates.com/wp-content/uploads/2012/11/small-business-loans.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -93,7 +93,7 @@
         {
             "label": "Inventory Management",
             "name": "invmgmt",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://www.theodosiadis.com/wp-content/uploads/2011/08/warehousing_zoom.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]

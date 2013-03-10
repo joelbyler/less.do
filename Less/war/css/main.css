@@ -61,6 +61,8 @@
 
 .img-circle {
 	margin: 12px;
+	width: 160px;
+	height: 160px;
 }
 .brand {
 	font-family: 'Sacramento', cursive;
@@ -71,7 +73,8 @@
 	margin-left: 50px;
 	padding-right: 8px;				
 }
-         .less_than {
+
+.less_than {
 	border: solid;
 	padding-left: 6px;
 	margin-top: 2px;
