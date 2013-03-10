@@ -70,10 +70,10 @@
         	
         </div> <!-- /container -->
 
-                <footer>
-	            <hr>
-	                <p>&copy; Less.do 2013</p>
-	            </footer>
+        <footer>
+         <hr>
+             <p>&nbsp; &nbsp; &copy; Do Less 2013</p>
+         </footer>
 			
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/vendor/jquery.tmpl.min.js"></script>

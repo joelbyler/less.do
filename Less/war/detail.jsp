@@ -34,14 +34,15 @@
       	<div class="row">
       	
 			<div class="row span8">
-				<span style="float:right;">
-                    <a id="lessback" class="brand" href="main.jsp" style="text-decoration: none;">
-                    	<span class="less_than_back">&#60;&nbsp</span>
-                    	<span class="less_word_back">less</span>
-                   	</a>
-				</span>
+			
 				<div id="detail_product_detail" class="row span8 well">
 					
+					<span style="float:right;">
+	                    <a id="lessback" class="brand" href="main.jsp" style="text-decoration: none;">
+	                    	<span class="less_than_back">&#60;&nbsp</span>
+	                    	<span class="less_word_back">less</span>
+	                   	</a>
+					</span>
 				</div>
 				
 				
@@ -64,11 +65,11 @@
 		      
       	</div>
       
-           <hr>
-            <footer>
-                <p>&copy; Less.do 2013</p>
-            </footer>
         </div> <!-- /container -->
+         <footer>
+         <hr>
+             <p>&nbsp; &nbsp; &copy; Do Less 2013</p>
+         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/vendor/jquery.tmpl.min.js"></script>
