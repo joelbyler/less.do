@@ -71,7 +71,10 @@
 .less_word {
 	font-size: 1.5em;
 	padding-right: 8px;			
-	font-family: 'Pacifico', cursive;	
+	font-family: 'Pacifico', cursive;
+	display: inline-block;
+	position: relative;
+	top: 5px;
 }
 
 .less_than {
