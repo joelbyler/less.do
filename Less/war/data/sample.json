@@ -20,7 +20,7 @@
         {
             "label": "Food/Beverage",
             "name": "food",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/foodbev.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -28,7 +28,7 @@
         {
             "label": "Medical Services (Dental, Physician, Mental Health)",
             "name": "medical",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/medserv.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -36,7 +36,7 @@
         {
             "label": "Legal Services",
             "name": "legal",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/legalserv.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -44,7 +44,7 @@
         {
             "label": "Landscaping",
             "name": "landscape",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/landscaping.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -52,7 +52,7 @@
         {
             "label": "Heating and Cooling",
             "name": "heatcool",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/heatingcooling.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -61,7 +61,7 @@
         {
             "label": "Managing Social Channels",
             "name": "social",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/socialmedia.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -69,7 +69,7 @@
         {
             "label": "Getting Tasks Done",
             "name": "gtd",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/tasks.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -77,7 +77,7 @@
         {
             "label": "Keeping Down Costs of Heating and Cooling (Energy Savings)",
             "name": "saveenergy",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/energysave.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -85,7 +85,7 @@
         {
             "label": "Securing My Business",
             "name": "secure",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/secure.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -93,7 +93,7 @@
         {
             "label": "Inventory Management",
             "name": "invmgmt",
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/categories/inventory.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -105,7 +105,7 @@
             "name": "bfr",
             "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
             "comments": 4,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/bfr.jpg",
             "tags": [
                 "social"
             ]
@@ -116,7 +116,7 @@
             "name": "ifttt",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 6,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/ifttt.jpeg",
             "tags": [
                 "social"
             ]
@@ -127,7 +127,7 @@
             "name": "tweetdeck",
             "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
             "comments": 1,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/tweetdeck.jpeg",
             "tags": [
                 "social"
             ]
@@ -138,7 +138,7 @@
             "name": "taskrabbit",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/taskrabbit.jpg",
             "tags": [
                 "gtd"
             ]
@@ -149,7 +149,7 @@
             "name": "delivermefood",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/delivermefood.jpg",
             "tags": [
                 "gtd"
             ]
@@ -160,7 +160,7 @@
             "name": "stubhub",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/stubhub.jpeg",
             "tags": [
                 "gtd"
             ]
@@ -171,7 +171,7 @@
             "name": "usgreen",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/usgbc.jpeg",
             "tags": [
                 "saveenergy"
             ]
@@ -182,7 +182,7 @@
             "name": "hannhvac",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/hannhvac.jpeg",
             "tags": [
                 "saveenergy"
             ]
@@ -193,7 +193,7 @@
             "name": "1hrcleveland",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/1hrcleveland.gif",
             "tags": [
                 "saveenergy"
             ]
@@ -204,7 +204,7 @@
             "name": "dropbox",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/dropbox.jpeg",
             "tags": [
                 "secure"
             ]
@@ -215,7 +215,7 @@
             "name": "dds",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/dds.jpeg",
             "tags": [
                 "secure"
             ]
@@ -223,10 +223,10 @@
         {
             "label": "LockLizard",
             "id" : "3",
-            "name": "1hrcleveland",
+            "name": "locklizard",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/locklizard.jpeg",
             "tags": [
                 "secure"
             ]
@@ -237,7 +237,7 @@
             "name": "netsuite",
             "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "/img/products/netsuite.jpeg",
             "tags": [
                 "invmgmt"
             ]
