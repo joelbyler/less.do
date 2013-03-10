@@ -67,14 +67,14 @@
         	</form>
         	<br/>
         	<div id="main_suggested_elements" style="display: none;"></div>
-            <hr>
-
-            <footer>
-                <p>&copy; Do Less 2013</p>
-            </footer>
-
+        	
         </div> <!-- /container -->
 
+                <footer>
+	            <hr>
+	                <p>&copy; Do Less 2013</p>
+	            </footer>
+			
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/vendor/jquery.tmpl.min.js"></script>
 
