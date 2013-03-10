@@ -20,7 +20,7 @@
         {
             "label": "Food/Beverage",
             "name": "food",
-            "img_url": "http://www.sbdcrvcc.com/wp-content/uploads/cooking-250x168.jpg",
+            "img_url": "/img/categories/foodbev.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -28,7 +28,7 @@
         {
             "label": "Medical Services (Dental, Physician, Mental Health)",
             "name": "medical",
-            "img_url": "http://thefinancialite.com/wp-content/uploads/2011/04/dentist-via-twincitiespot5.jpg",
+            "img_url": "/img/categories/medserv.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -36,7 +36,7 @@
         {
             "label": "Legal Services",
             "name": "legal",
-            "img_url": "http://www.case.edu/president/counsel/images/law-1.jpg",
+            "img_url": "/img/categories/legalserv.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -44,7 +44,7 @@
         {
             "label": "Landscaping",
             "name": "landscape",
-            "img_url": "http://absolutepaving.co.uk/wp-content/uploads/2012/09/landscape02.jpg",
+            "img_url": "/img/categories/landscaping.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -52,7 +52,7 @@
         {
             "label": "Heating and Cooling",
             "name": "heatcool",
-            "img_url": "http://www.qualitycool.com/images/hvac-energy-savings-card.jpg",
+            "img_url": "/img/categories/heatingcooling.jpg",
             "tags": [
                 "smbiz"
             ]
@@ -61,7 +61,7 @@
         {
             "label": "Managing Social Channels",
             "name": "social",
-            "img_url": "http://freshdesk.com/images/social-help-desk.png",
+            "img_url": "/img/categories/socialmedia.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -69,7 +69,7 @@
         {
             "label": "Getting Tasks Done",
             "name": "gtd",
-            "img_url": "http://www.lifeofjustin.com/wp-content/uploads/2010/07/getting-things-done-570x380.jpg",
+            "img_url": "/img/categories/tasks.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -77,7 +77,7 @@
         {
             "label": "Keeping Down Costs of Heating and Cooling (Energy Savings)",
             "name": "saveenergy",
-            "img_url": "http://www.benefits.gov/static/benefits/en/images/january2013_newsletter_img_save.png",
+            "img_url": "/img/categories/energysave.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -85,7 +85,7 @@
         {
             "label": "Securing My Business",
             "name": "secure",
-            "img_url": "http://blog.fundinggates.com/wp-content/uploads/2012/11/small-business-loans.jpg",
+            "img_url": "/img/categories/secure.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -93,7 +93,7 @@
         {
             "label": "Inventory Management",
             "name": "invmgmt",
-            "img_url": "http://www.theodosiadis.com/wp-content/uploads/2011/08/warehousing_zoom.jpg",
+            "img_url": "/img/categories/inventory.jpg",
             "tags": [
                 "food", "medical", "legal", "landscape", "heatcool"
             ]
@@ -105,7 +105,7 @@
             "name": "bfr",
             "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
             "comments": 4,
-            "img_url": "http://bufferapp.com/images/app/buffer-logo.png",
+            "img_url": "/img/products/bfr.jpg",
             "tags": [
                 "social"
             ]
@@ -116,7 +116,7 @@
             "name": "ifttt",
             "description": "IFTTT is a service that lets you create powerful connections with one simple statement: if this then that",
             "comments": 6,
-            "img_url": "https://ifttt.com/assets/r2012/ifttt_logo_83-2fa98a5d840c5fa967eb43431c900da7.svg",
+            "img_url": "/img/products/ifttt.jpeg",
             "tags": [
                 "social"
             ]
@@ -127,7 +127,7 @@
             "name": "tweetdeck",
             "description": "TweetDeck is an app that brings more flexibility and insight to power users.",
             "comments": 1,
-            "img_url": "http://cdn.romidar.com/wp-content/uploads/2011/12/tweetdeck.png",
+            "img_url": "/img/products/tweetdeck.jpeg",
             "tags": [
                 "social"
             ]
@@ -138,7 +138,7 @@
             "name": "taskrabbit",
             "description": "College students, recent retirees, stay-at-home moms, young professionals TaskRabbits are quite literally the people in your neighborhood. They dedicate their time and talents to getting your To-Do list done.",
             "comments": 3,
-            "img_url": "https://d1sogh6lbaxf9i.cloudfront.net/core/assets/new_homepage/ts_logo-51f3b15996192c30f1b0ec863b93b4a4.png",
+            "img_url": "/img/products/taskrabbit.jpeg",
             "tags": [
                 "gtd"
             ]
@@ -149,7 +149,7 @@
             "name": "Delivermefood",
             "description": "We are an online ordering service that serves the Greater Cleveland area. We are a locally owned and operated company that is committed to providing you with great service. Sit back, relax and enjoy! Simply browse through our menus and place your order with the restaurant of your choice. We hope you enjoy your experience with us! If you are unfamiliar with our service, we ask that you read How it Works before placing your order.",
             "comments": 3,
-            "img_url": "http://www.delivermefood.com/images/logo3.gif",
+            "img_url": "/img/products/delivermefood.jpg",
             "tags": [
                 "gtd"
             ]
@@ -160,7 +160,7 @@
             "name": "stubhub",
             "description": "It's simple: we back every order, so you can buy and sell tickets with 100% confidence.",
             "comments": 3,
-            "img_url": "http://cache1.stubhubstatic.com/promotions/scratch/lt/logo_us.png",
+            "img_url": "/img/products/stubhub.jpeg",
             "tags": [
                 "gtd"
             ]
@@ -171,7 +171,7 @@
             "name": "usgreen",
             "description": "USGBC works toward its mission of market transformation through its LEED green building program, robust educational offerings, a nationwide network of chapters and affiliates, the annual Greenbuild International Conference & Expo, and advocacy in support of public policy that encourages and enables green buildings and communities.",
             "comments": 3,
-            "img_url": "http://new.usgbc.org/sites/all/themes/usgbc/lib/img/logo.png",
+            "img_url": "/img/products/usgbc.jpeg",
             "tags": [
                 "saveenergy"
             ]
@@ -182,7 +182,7 @@
             "name": "hannhvac",
             "description": "The Hann family has been a leader in the residential Cleveland heating and Cleveland HVAC industry since 1907. Verne & Ellsworth Hann is owned by fourth-generation brothers Chris and Bill Hann and celebrates over a 100-year family commitment to the HVAC and plumbing industries. At the heart of the company's mission is its commitment to providing quality service and products in a professional and honest manner.  Verne & Ellsworth Hann, Inc. has been located in Cleveland Heights, Ohio since 1957. It is currently one of the oldest family run businesses in the city.  Learn more about Cleveland HVAC and Cleveland plumbing. ",
             "comments": 3,
-            "img_url": "http://www.hannheatingcooling.com/sites/hannheatingcooling.com/files/ve-hann-logo.png",
+            "img_url": "/img/products/hannhvac.jpeg",
             "tags": [
                 "saveenergy"
             ]
@@ -193,7 +193,7 @@
             "name": "1hrcleveland",
             "description": "Welcome to One Hour Heating & Air Conditioning, your source for prompt, courteous, reliable heating and air service. Offering heating and air conditioning maintenance, installation, repairs, and everything in between, our goal is to address your HVAC needs in a timely, efficient, and cost-effective fashion. If you are located in Cleveland, heating and air systems need to be kept in good shape in your home if you want to stay comfortable. If you want to remain cool during summer and warm during winter while staying within your budget, you should give One Hour Heating & Air Conditioning a chance to perform repairs.",
             "comments": 3,
-            "img_url": "http://www.onehourcleveland.com/images/logo.gif",
+            "img_url": "/img/products/1hrcleveland.gif",
             "tags": [
                 "saveenergy"
             ]
@@ -204,7 +204,7 @@
             "name": "dropbox",
             "description": "Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website. Dropbox also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! You can relax knowing that Dropbox always has you covered, and none of your stuff will ever be lost.",
             "comments": 3,
-            "img_url": "https://www.dropbox.com/static/images/home_logo-vflWA3gZl.png",
+            "img_url": "/img/products/dropbox.jpeg",
             "tags": [
                 "secure"
             ]
@@ -213,9 +213,9 @@
             "label": "DDS",
             "id" : "10",
             "name": "dds",
-            "description": "DSS works worldwide with governments, corporations and financial institutions to protect their brands and defeat document theft, counterfeiting and fraud. Simply put, DSS is a proven leader in customized brand protection—and we have the years of experience, the patented technology, and the track record to prove it.",
+            "description": "DSS works worldwide with governments, corporations and financial institutions to protect their brands and defeat document theft, counterfeiting and fraud. Simply put, DSS is a proven leader in customized brand protection√ëand we have the years of experience, the patented technology, and the track record to prove it.",
             "comments": 3,
-            "img_url": "http://www.dsssecure.com/sites/dsssecure.com/themes/dss/images/logo_dss.png",
+            "img_url": "/img/products/dds.jpeg",
             "tags": [
                 "secure"
             ]
@@ -226,7 +226,7 @@
             "name": "lockLizard",
             "description": "LockLizard protects your Intellectual Property (documents, reports, ebooks, html web content, swf flash files, PowerPoint slides, etc.) from being stolen or compromized.",
             "comments": 3,
-            "img_url": "http://www.locklizard.com/Images/locklizard.gif",
+            "img_url": "/img/products/locklizard.jpeg",
             "tags": [
                 "secure"
             ]
@@ -237,7 +237,7 @@
             "name": "netsuite",
             "description": "Used by 16,000+ organizations worldwide, NetSuite delivers accounting/Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Professional Services Automation (PSA) and Ecommerce in a single, integrated business management software solution.",
             "comments": 3,
-            "img_url": "http://www.netsuite.com/portal/images/pages/logo_netsuite.gif",
+            "img_url": "/img/products/netsuite.jpeg",
             "tags": [
                 "invmgmt"
             ]
