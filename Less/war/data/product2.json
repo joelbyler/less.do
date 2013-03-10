@@ -1,12 +1,12 @@
 {
-  			"label": "Cook / Chef",
+  			"label": "TweetDeck",
             "id" : "3",
-            "name": "cook",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "name": "TweetDeck",
+            "description": "TweetDeck is an app that brings more flexibility and insight to power users.",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "http://cdn.romidar.com/wp-content/uploads/2011/12/tweetdeck.png",
             "tags": [
-                "restaurant", "cook", "chef"
+                "social"
              		] ,
 		    "comments": [
 		        {

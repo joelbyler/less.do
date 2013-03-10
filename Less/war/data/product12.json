@@ -1,12 +1,12 @@
 {
-  			"label": "Buffer",
-            "id" : "3",
-            "name": "Buffer",
-            "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
+  			"label": "NetSuite.com",
+            "id" : "12",
+            "name": "netsuitecom",
+            "description": "Used by 16,000+ organizations worldwide, NetSuite delivers accounting/Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Professional Services Automation (PSA) and Ecommerce in a single, integrated business management software solution.",
             "comments": 3,
-            "img_url": "http://bufferapp.com/images/app/buffer-logo.png",
+            "img_url": "http://www.netsuite.com/portal/images/pages/logo_netsuite.gif",
             "tags": [
-                 "social"
+                "invmgmt"
              		] ,
 		    "comments": [
 		        {

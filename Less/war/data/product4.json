@@ -1,12 +1,12 @@
 {
-  			"label": "Buffer",
-            "id" : "3",
-            "name": "Buffer",
-            "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
+  			"label": "Delivermefood",
+            "id" : "4",
+            "name": "Delivermefood",
+            "description": "We are an online ordering service that serves the Greater Cleveland area. We are a locally owned and operated company that is committed to providing you with great service. Sit back, relax and enjoy! Simply browse through our menus and place your order with the restaurant of your choice. We hope you enjoy your experience with us! If you are unfamiliar with our service, we ask that you read How it Works before placing your order.",
             "comments": 3,
-            "img_url": "http://bufferapp.com/images/app/buffer-logo.png",
+            "img_url": "http://www.delivermefood.com/images/logo3.gif",
             "tags": [
-                 "social"
+                "gtd"
              		] ,
 		    "comments": [
 		        {

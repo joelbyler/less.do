@@ -1,12 +1,12 @@
 {
-  			"label": "Cook / Chef",
+  			"label": "IFTTT",
             "id" : "3",
-            "name": "cook",
-            "description": "Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.",
+            "name": "IFTTT",
+            "description": "IFTTT is a service that lets you create powerful connections with one simple statement: if this then that",
             "comments": 3,
-            "img_url": "http://placehold.it/160x160",
+            "img_url": "https://ifttt.com/assets/r2012/ifttt_logo_83-2fa98a5d840c5fa967eb43431c900da7.svg",
             "tags": [
-                "restaurant", "cook", "chef"
+                "social"
              		] ,
 		    "comments": [
 		        {

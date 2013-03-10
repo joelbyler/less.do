@@ -1,12 +1,12 @@
 {
-  			"label": "Buffer",
-            "id" : "3",
-            "name": "Buffer",
-            "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
+  			"label": "US Green Building Council",
+            "id" : "6",
+            "name": "usgreen",
+            "description": "USGBC works toward its mission of market transformation through its LEED green building program, robust educational offerings, a nationwide network of chapters and affiliates, the annual Greenbuild International Conference & Expo, and advocacy in support of public policy that encourages and enables green buildings and communities.",
             "comments": 3,
-            "img_url": "http://bufferapp.com/images/app/buffer-logo.png",
+            "img_url": "http://new.usgbc.org/sites/all/themes/usgbc/lib/img/logo.png",
             "tags": [
-                 "social"
+                "saveenergy"
              		] ,
 		    "comments": [
 		        {

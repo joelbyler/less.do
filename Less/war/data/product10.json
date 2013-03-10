@@ -1,12 +1,12 @@
 {
-  			"label": "Buffer",
-            "id" : "3",
-            "name": "Buffer",
-            "description": "Be awesome on social media. Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!",
+  			"label": "DDS",
+            "id" : "10",
+            "name": "dds",
+            "description": "DSS works worldwide with governments, corporations and financial institutions to protect their brands and defeat document theft, counterfeiting and fraud. Simply put, DSS is a proven leader in customized brand protection—and we have the years of experience, the patented technology, and the track record to prove it.",
             "comments": 3,
-            "img_url": "http://bufferapp.com/images/app/buffer-logo.png",
+            "img_url": "http://www.dsssecure.com/sites/dsssecure.com/themes/dss/images/logo_dss.png",
             "tags": [
-                 "social"
+                "secure"
              		] ,
 		    "comments": [
 		        {
