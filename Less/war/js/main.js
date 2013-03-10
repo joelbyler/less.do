@@ -5,10 +5,10 @@ var CATEGORY_NAME_MAIN = "top_level";
 var url = base_url + "/data/sample.json";
 var TEMPLATE_MAIN_CATEGORY = "<span class=\"span2\"><a href=\"#\" onclick=\"displaySubCategories('${name}');\" title=\"${label}\"><img src=\"${img_url}\" class=\"img-circle\"><center><label>${label}</label></center></a></span>";
 var TEMPLATE_SUB_CATEGORY = "<span class=\"span2\"><a href=\"#\" onclick=\"displayProducts('${name}');\" title=\"${label}\"><img src=\"${img_url}\" class=\"img-circle\"><center><label>${label}</label></center></a></span>";
-var TEMPLATE_PRODUCT = "<div class=\"row\">"
-		+ "<hr><div class=\"span8\">"
+var TEMPLATE_PRODUCT = "<div class=\"span3\"> <div class=\"row\">"
+		+ "<hr><div class=\"span3\">"
 		+ "    <div class=\"row\">"
-		+ "      <div class=\"span8\">"
+		+ "      <div class=\"span3\">"
 		+ "        <h4><strong><a href=\"/detail.jsp?id=${id}\">${label}</a></strong></h4>"
 		+ "      </div>"
 		+ "    </div>"
@@ -18,20 +18,22 @@ var TEMPLATE_PRODUCT = "<div class=\"row\">"
 		+ "          <img src=\"${img_url}\" alt=\"${label}\">"
 		+ "        </a>"
 		+ "      </div>"
-		+ "      <div class=\"span6\">      "
-		+ "        <p>${description}</p>"
-		+ "      </div>"
 		+ "    </div>"
 		+ "    <div class=\"row\">"
-		+ "      <div class=\"span8\">"
+		+ "  	 <div class=\"span3\">      "
+		+ "        <p>${description}</p>"
+		+ "      </div>"
+		+ "      <div class=\"span3\">"
 		+ "        <p></p>"
 		+ "        <p>"
 		+ "          <i class=\"icon-comment\"></i> <a href=\"/detail.jsp?id=${id}\">${comments} Comments</a> | "
 		+ "          <i class=\"icon-tags\"></i> Tags : "
 		+ "			{{each tags}} "
 		+ "		 		<a href=\"/detail.jsp?id=${id}\"><span class=\"label label-info\">${$value}</span></a>"
-		+ "			{{/each}}  " + "        </p>" + "      </div>" + "    </div>"
-		+ "  </div>" + "</div>";
+		+ "			{{/each}}  " + "        </p>" 
+		+ "      </div>" 
+		+ "    </div>"
+		+ "  </div></div>" + "</div>";
 
 $.template("mainCategoryCategory", TEMPLATE_MAIN_CATEGORY);
 $.template("subCategoryCategory", TEMPLATE_SUB_CATEGORY);
@@ -84,7 +86,7 @@ function displaySubCategories(forTag) {
 		$("#sub_category_section").show();
 
 		var new_position = $("#sub_category_label").offset();
-		window.scrollTo(new_position.left, new_position.top - 20);
+		window.scrollTo(0, new_position.top - 20);
 	});
 
 }
@@ -100,8 +102,8 @@ function displayProducts(forTag) {
 			}
 		});
 		$("#main_suggested_elements").show();
-		
+
 		var new_position = $("#main_suggested_elements").offset();
-		window.scrollTo(new_position.left, new_position.top - 10);
+		window.scrollTo(0, new_position.top - 10);
 	});
 }
