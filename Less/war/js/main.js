@@ -1,7 +1,8 @@
 var base_url = "http://localhost:8888/";
 var CATEGORY_NAME_MAIN = "top_level";
 var url = base_url + "/data/sample.json";
-var TEMPLATE_SUB_CATEGORY = "<span style=\"width: 50px;\"></span><a href=\"#\" onclick=\"displayProducts('${name}');\" title=\"${label}\"><img src=\"${img_url}\" class=\"img-circle\"></a>";
+var TEMPLATE_MAIN_CATEGORY = "<span class=\"span2\"><a href=\"#\" onclick=\"displaySubCategories('${name}');\" title=\"${label}\"><img src=\"${img_url}\" class=\"img-circle\"><center><label>${label}</label></center></a></span>";
+var TEMPLATE_SUB_CATEGORY = "<span class=\"span2\"><a href=\"#\" onclick=\"displayProducts('${name}');\" title=\"${label}\"><img src=\"${img_url}\" class=\"img-circle\"><center><label>${label}</label></center></a></span>";
 var TEMPLATE_PRODUCT = "<div class=\"row\">"
 		+ "<hr><div class=\"span8\">"
 		+ "    <div class=\"row\">"
@@ -30,15 +31,16 @@ var TEMPLATE_PRODUCT = "<div class=\"row\">"
 		+ "			{{/each}}  " + "        </p>" + "      </div>" + "    </div>"
 		+ "  </div>" + "</div>";
 
+$.template("mainCategoryCategory", TEMPLATE_MAIN_CATEGORY);
 $.template("subCategoryCategory", TEMPLATE_SUB_CATEGORY);
 $.template("productCategory", TEMPLATE_PRODUCT);
 
-function loadMainCategory() {
+function loadFirstQuestion() {
 	$.getJSON(url, function(data) {
 		var select = $("#selectTopLevelCategory");
 		select.find('option').remove().end();
 		select.append($('<option>').text("Select One"));
-		$.each(data.main_categories, function(key, value) {
+		$.each(data.entry_categories, function(key, value) {
 			if (value.tags.indexOf(CATEGORY_NAME_MAIN) >= 0) {
 				select.append($('<option>').text(value.label).attr('value',
 						value.name));
@@ -47,20 +49,34 @@ function loadMainCategory() {
 	});
 }
 
-function displaySubCategories(forTag) {
+function displayMainCategories(forTag) {
 	var url = base_url + "/data/sample.json";
 	$.getJSON(url, function(data) {
-		$("#main_suggested_categories_list").html("");
+		$("#main_category_list").html("");
 		var hitCounter = 0;
-		$.each(data.sub_categories, function(key, value) {
+		$.each(data.main_categories, function(key, value) {
 			if (value.tags.indexOf(forTag) >= 0) {
-				$.tmpl("subCategoryCategory", value).appendTo(
-						"#main_suggested_categories_list");
+				$.tmpl("mainCategoryCategory", value).appendTo("#main_category_list");
 				hitCounter++;
 			}
 		});
-		$("#suggested_category_item_count").html("(" + hitCounter + ")");
-		$("#main_suggested_categories").show();
+		$("#main_category_item_count").html("(" + hitCounter + ")");
+		$("#main_category_section").show();
+	});
+}
+function displaySubCategories(forTag) {
+	var url = base_url + "/data/sample.json";
+	$.getJSON(url, function(data) {
+		$("#sub_category_list").html("");
+		var hitCounter = 0;
+		$.each(data.sub_categories, function(key, value) {
+			if (value.tags.indexOf(forTag) >= 0) {
+				$.tmpl("subCategoryCategory", value).appendTo("#sub_category_list");
+				hitCounter++;
+			}
+		});
+		$("#sub_category_item_count").html("(" + hitCounter + ")");
+		$("#sub_category_section").show();
 	});
 }
 
