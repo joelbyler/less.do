@@ -30,21 +30,21 @@
 				String userName = new LessUserSvcImpl().userIsLoggedIn();
 				if( "".equals(userName)) {	
 			%>		 
-						<ul class="nav pull-right">
-		                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
-		                        <ul class="dropdown-menu">
-		                            <li><a href="/glogin">Login Via Google</a></li>
-		                        </ul>
-		                    </li>
-		                </ul>
+<!-- 						<ul class="nav pull-right"> -->
+<!-- 		                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a> -->
+<!-- 		                        <ul class="dropdown-menu"> -->
+<!-- 		                            <li><a href="/glogin">Login Via Google</a></li> -->
+<!-- 		                        </ul> -->
+<!-- 		                    </li> -->
+<!-- 		                </ul> -->
 			<% } else {	%>			
-		                <ul class="nav pull-right">
-		                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=userName %> <b class="caret"></b></a>
-		                        <ul class="dropdown-menu">
-		                           <li><a href="<%=logoutUrl %>"><i class="icon-off"></i> Logout</a></li>
-		                        </ul>
-		                    </li>
-		                </ul>
+<!-- 		                <ul class="nav pull-right"> -->
+<%-- 		                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=userName %> <b class="caret"></b></a> --%>
+<!-- 		                        <ul class="dropdown-menu"> -->
+<%-- 		                           <li><a href="<%=logoutUrl %>"><i class="icon-off"></i> Logout</a></li> --%>
+<!-- 		                        </ul> -->
+<!-- 		                    </li> -->
+<!-- 		                </ul> -->
 		     <% } 	%>		 
 		              </div>
                     </div><!--/.nav-collapse -->

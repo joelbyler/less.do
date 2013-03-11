@@ -1,5 +1,5 @@
-//var base_url = "http://do-less.appspot.com/";
-var base_url = "http://localhost:8888/";
+var base_url = "http://do-less.appspot.com/";
+//var base_url = "http://localhost:8888/";
 
 var TEMPLATE_PRODUCT_DETAIL = ""
 		+ " <div class=\"span2\">"

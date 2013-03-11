@@ -1,5 +1,5 @@
-//var base_url = "http://do-less.appspot.com/";
-var base_url = "http://localhost:8888/";
+var base_url = "http://do-less.appspot.com/";
+//var base_url = "http://localhost:8888/";
 
 var CATEGORY_NAME_MAIN = "top_level";
 var url = base_url + "/data/sample.json";
@@ -47,7 +47,7 @@ function loadFirstQuestion(iam, callback) {
 	$.getJSON(url, function(data) {
 		var select = $("#selectTopLevelCategory");
 		select.find('option').remove().end();
-		// select.append($('<option>').text("Select One"));
+		//select.append($('<option>').text("Select your option"));
 		$.each(data.entry_categories, function(key, value) {
 			if (value.tags.indexOf(CATEGORY_NAME_MAIN) >= 0) {
 				if(value.name==iam){

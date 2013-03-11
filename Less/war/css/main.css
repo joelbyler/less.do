@@ -78,14 +78,14 @@
 }
 
 .less_than {
-	
+	font-size: 40px;
 	margin-left: 50px;
-	border: solid;
+/* 	border: solid; */
 	padding-left: 6px;
 	margin-top: 2px;
 	padding-top: 4px;
 	padding-bottom: 0px;
-	padding-right: 4px;
+/* 	padding-right: 4px; */
 	display: inline-block;
 	border-radius: 5px;
 }

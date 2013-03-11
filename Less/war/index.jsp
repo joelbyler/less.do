@@ -35,9 +35,9 @@
 			<div style="text-align: center;">
 <!-- 				<img width="500" height="200" src="https://s3.amazonaws.com/assets.kickofflabs.com/logos/site/logo/8287/lheader1.png"></img> -->
 				<div class="index_text_less">less</div><div class="index_text_more"> is more!</div> 
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/Qsd885pT-Wc" frameborder="0" allowfullscreen></iframe>
-     			<br/><br/>
-     			<button class="btn btn-large btn-success" type="button" onclick="location.href='/main.jsp'">Discover it!</button>
+				<iframe width="420" height="315" src="http://www.youtube.com/embed/x9ZGwFPj-eU" frameborder="0" allowfullscreen></iframe>
+				<br/><br/>
+<!--      			<button class="btn btn-large btn-success" type="button" onclick="location.href='/main.jsp'">Discover it!</button> -->
      	 	</div>
         </div> <!-- /container -->
  		<footer>
